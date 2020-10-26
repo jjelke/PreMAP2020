@@ -20,10 +20,15 @@ def only_evens(list_of_numbers):
     # Then return the number
     return even_numbers
 
+<<<<<<< HEAD
 # Define the function here
 
 def only_evens_numpy(list_of_numbers):
     """Take a numpy array of numbers and return a numpy array"""
+=======
+def only_evens_numpy(list_of_numbers):
+    """Take a numpy array of numbers and return a numpy array of the even values."""
+>>>>>>> e3a25b0032740efecc3f5cc9aed550f17447f194
     
     # Make sure the list of numbers is an array
     array_of_numbers = np.array(list_of_numbers)
